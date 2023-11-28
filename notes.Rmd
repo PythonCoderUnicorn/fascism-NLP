@@ -103,6 +103,65 @@ vituperative = using, containing harshly critical or irate language
 
 
 
+## Book 2
+
+Hitler's Social Revolution. Class and Status in Nazi Germany 1933-1939. David Schoenaum. Doubleday & Company. 1966. 
+
+```{r,warning=FALSE}
+# German Occupational Distribution in % of Population, p.3
+library(tidyverse)
+
+df = tribble(
+  ~'Year', ~'Agriculture', ~'Industrial', ~'Services',
+  1882, 42, 36, 22,
+  1895, 36, 39, 25,
+  1907, 34, 40, 26,
+  1925, 30, 42, 28,
+  1933, 29, 41, 30
+)
+
+df
+
+
+```
+
+
+- 1923 Germany had hyperbolic inflation
+- 1929-30 recession economy
+- Nazi appeal to make things better: econ dissatisfaction, loss of export market, exhaustion of raw & plant materials
+- Hitler support was from unemployment and inflation concerns
+- 1926 Hitler's speech in Hamburg addresses audience as "Gentleman" and no as comrades. "those who revolted in the home front were not Burger but scum, traitorous scum"
+- Hitler labelled critics of anti-Jewish ideology as 'bourgeois cowards'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
