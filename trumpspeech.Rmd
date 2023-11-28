@@ -1,0 +1,17 @@
+---
+title: "Trump Speech"
+output: html_notebook
+---
+
+This is the article that set the whole project off, what would the word assoications and frequencies be for other facist speech. 
+
+```{r}
+library(ralger)
+
+url = "https://www.reuters.com/world/us/biden-says-trump-echoed-nazis-with-use-word-vermin-2023-11-15/"
+
+news = ralger::paragraphs_scrap(url)
+news
+```
+
+
